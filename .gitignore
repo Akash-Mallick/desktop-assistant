@@ -10,3 +10,6 @@ wheels/
 .venv
 .DS_Store
 .env
+*.lock
+command_history.json
+*.log
