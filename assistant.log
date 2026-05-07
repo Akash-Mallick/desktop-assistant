@@ -1,0 +1,247 @@
+2026-05-04 16:08:19,682 [INFO] __main__: Starting AI Voice-Controlled Desktop Assistant...
+2026-05-04 16:08:20,440 [INFO] assistant.stt: Calibrating microphone for ambient noise (2 s)…
+2026-05-04 16:08:25,274 [INFO] assistant.stt: Microphone ready.
+2026-05-04 16:08:52,824 [WARNING] assistant.nlp: spaCy model 'en_core_web_sm' not found. Run: python -m spacy download en_core_web_sm
+2026-05-04 16:08:52,824 [INFO] assistant.core: [TTS] Assistant ready. Say 'Hey Assistant' to begin.
+2026-05-04 16:10:23,505 [INFO] assistant.core: Wake word detected.
+2026-05-04 16:10:23,507 [INFO] assistant.core: [TTS] Yes, listening.
+2026-05-04 16:10:28,735 [INFO] assistant.core: [TTS] I didn't catch that. Please try again.
+2026-05-04 16:11:17,144 [INFO] assistant.core: Wake word detected.
+2026-05-04 16:11:17,146 [INFO] assistant.core: [TTS] Yes, listening.
+2026-05-04 16:11:23,236 [INFO] assistant.core: [TTS] I didn't catch that. Please try again.
+2026-05-05 15:13:33,630 [INFO] __main__: Starting AI Voice-Controlled Desktop Assistant...
+2026-05-05 15:13:33,784 [INFO] assistant.stt: Calibrating microphone for ambient noise (2 s)…
+2026-05-05 15:13:38,166 [INFO] assistant.stt: Microphone ready.
+2026-05-05 15:13:41,153 [WARNING] assistant.nlp: spaCy model 'en_core_web_sm' not found. Run: python -m spacy download en_core_web_sm
+2026-05-05 15:13:41,153 [INFO] assistant.core: [TTS] Assistant ready. Say 'Hey Assistant' to begin.
+2026-05-05 15:13:51,625 [INFO] assistant.core: Wake word detected.
+2026-05-05 15:13:51,627 [INFO] assistant.core: [TTS] Yes, listening.
+2026-05-05 15:13:56,648 [INFO] assistant.core: [STT] open Chrome
+2026-05-05 15:13:56,652 [INFO] assistant.core: [NLP] intent=open_app, entities={'raw': 'open Chrome', 'app_name': 'Chrome'}, conf=0.90
+2026-05-05 15:13:56,667 [INFO] assistant.core: [TTS] Opening Chrome.
+2026-05-05 15:14:05,897 [INFO] assistant.core: Wake word detected.
+2026-05-05 15:14:05,898 [INFO] assistant.core: [TTS] Yes, listening.
+2026-05-05 15:14:11,097 [INFO] assistant.core: [TTS] I didn't catch that. Please try again.
+2026-05-05 15:14:26,156 [INFO] assistant.core: Wake word detected.
+2026-05-05 15:14:26,158 [INFO] assistant.core: [TTS] Yes, listening.
+2026-05-05 15:14:29,610 [INFO] assistant.core: [TTS] I didn't catch that. Please try again.
+2026-05-05 15:25:41,757 [INFO] __main__: Starting AI Voice-Controlled Desktop Assistant...
+2026-05-05 15:25:41,849 [INFO] assistant.stt: Calibrating microphone for ambient noise (2 s)…
+2026-05-05 15:25:44,208 [INFO] assistant.stt: Microphone ready.
+2026-05-05 15:25:46,109 [WARNING] assistant.nlp: spaCy model 'en_core_web_sm' not found. Run: python -m spacy download en_core_web_sm
+2026-05-05 15:25:46,109 [INFO] assistant.core: [TTS] Assistant ready. Say 'Hey Assistant' to begin.
+2026-05-05 15:25:56,593 [INFO] assistant.core: Wake word detected.
+2026-05-05 15:25:56,595 [INFO] assistant.core: [TTS] Yes, listening.
+2026-05-05 15:26:02,029 [INFO] assistant.core: [TTS] I didn't catch that. Please try again.
+2026-05-05 15:27:14,162 [INFO] __main__: Interrupted by user. Shutting down.
+2026-05-05 15:27:14,164 [INFO] assistant.core: [TTS] Goodbye! Have a great day.
+2026-05-05 15:27:35,217 [INFO] __main__: Starting AI Voice-Controlled Desktop Assistant...
+2026-05-05 15:27:35,305 [INFO] assistant.stt: Calibrating microphone for ambient noise (2 s)…
+2026-05-05 15:27:37,695 [INFO] assistant.stt: Microphone ready.
+2026-05-05 15:27:39,493 [WARNING] assistant.nlp: spaCy model 'en_core_web_sm' not found. Run: python -m spacy download en_core_web_sm
+2026-05-05 15:27:39,493 [INFO] assistant.core: [TTS] Assistant ready. Say 'Hey Assistant' to begin.
+2026-05-05 15:30:20,065 [INFO] __main__: Starting AI Voice-Controlled Desktop Assistant...
+2026-05-05 15:30:20,204 [INFO] assistant.stt: Calibrating microphone for ambient noise (2 s)…
+2026-05-05 15:30:22,422 [INFO] assistant.stt: Microphone ready.
+2026-05-05 15:30:24,213 [WARNING] assistant.nlp: spaCy model 'en_core_web_sm' not found. Run: python -m spacy download en_core_web_sm
+2026-05-05 15:30:24,213 [INFO] assistant.core: [TTS] Assistant ready. Say 'Hey Assistant' to begin.
+2026-05-05 15:30:34,717 [INFO] assistant.core: Wake word detected.
+2026-05-05 15:30:34,718 [INFO] assistant.core: [TTS] Yes, listening.
+2026-05-05 15:30:43,320 [INFO] assistant.core: [STT] open Safari
+2026-05-05 15:30:43,325 [INFO] assistant.core: [NLP] intent=open_app, entities={'raw': 'open Safari', 'app_name': 'Safari'}, conf=0.90
+2026-05-05 15:30:43,443 [INFO] assistant.core: [TTS] Opening Safari.
+2026-05-05 15:41:42,067 [ERROR] assistant.stt: Unexpected STT error: [Errno 54] Connection reset by peer
+Traceback (most recent call last):
+  File "/Users/akashmallick/Desktop/Codec_Project_2/assistant/stt.py", line 66, in _capture
+    text = self.recognizer.recognize_google(audio)
+  File "/Users/akashmallick/Desktop/Codec_Project_2/.venv/lib/python3.13/site-packages/speech_recognition/recognizers/google.py", line 256, in recognize_legacy
+    response_text = obtain_transcription(
+        request, timeout=recognizer.operation_timeout
+    )
+  File "/Users/akashmallick/Desktop/Codec_Project_2/.venv/lib/python3.13/site-packages/speech_recognition/recognizers/google.py", line 216, in obtain_transcription
+    response = urlopen(request, timeout=timeout)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 189, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 489, in open
+    response = self._open(req, data)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 506, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+                              '_open', req)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 466, in _call_chain
+    result = func(*args)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 1348, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 1323, in do_open
+    r = h.getresponse()
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1428, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 54] Connection reset by peer
+2026-05-05 15:42:15,643 [INFO] __main__: Interrupted by user. Shutting down.
+2026-05-05 15:42:15,645 [INFO] assistant.core: [TTS] Goodbye! Have a great day.
+2026-05-07 13:19:45,096 [INFO] __main__: Starting AI Voice-Controlled Desktop Assistant...
+2026-05-07 13:19:45,257 [INFO] assistant.stt: Calibrating microphone for ambient noise (2 s)…
+2026-05-07 13:19:47,528 [INFO] assistant.stt: Microphone ready.
+2026-05-07 13:19:50,805 [WARNING] assistant.nlp: spaCy model 'en_core_web_sm' not found. Run: python -m spacy download en_core_web_sm
+2026-05-07 13:19:50,805 [ERROR] assistant.gemini: google-generativeai not installed. Run: pip install google-generativeai
+2026-05-07 13:19:50,805 [WARNING] assistant.core: Gemini AI fallback: DISABLED (no API key)
+2026-05-07 13:19:50,805 [INFO] assistant.core: [TTS] Assistant ready. Say 'Hey Assistant' to begin.
+2026-05-07 13:20:01,460 [INFO] assistant.core: Wake word detected.
+2026-05-07 13:20:01,461 [INFO] assistant.core: [TTS] Yes, listening.
+2026-05-07 13:20:09,026 [INFO] assistant.core: [STT] what is the update on us
+2026-05-07 13:20:09,029 [INFO] assistant.core: [NLP] intent=unknown, entities={'raw': 'what is the update on us'}, conf=0.30
+2026-05-07 13:20:09,030 [INFO] assistant.core: [Router] No skill match → Gemini (conf=0.30)
+2026-05-07 13:20:09,030 [INFO] assistant.core: [TTS] I didn't understand that command, and the AI brain isn't configured. Set your GEMINI_API_KEY to enable smart responses.
+2026-05-07 13:20:27,147 [INFO] assistant.core: Wake word detected.
+2026-05-07 13:20:27,149 [INFO] assistant.core: [TTS] Yes, listening.
+2026-05-07 13:20:34,519 [INFO] assistant.core: [STT] Achcha Tu Bhi bilkul what is 2 x 3
+2026-05-07 13:20:34,520 [INFO] assistant.core: [NLP] intent=unknown, entities={'raw': 'Achcha Tu Bhi bilkul what is 2 x 3'}, conf=0.30
+2026-05-07 13:20:34,521 [INFO] assistant.core: [Router] No skill match → Gemini (conf=0.30)
+2026-05-07 13:20:34,521 [INFO] assistant.core: [TTS] I didn't understand that command, and the AI brain isn't configured. Set your GEMINI_API_KEY to enable smart responses.
+2026-05-07 13:20:57,463 [INFO] __main__: Interrupted by user. Shutting down.
+2026-05-07 13:20:57,464 [INFO] assistant.core: [TTS] Goodbye! Have a great day.
+2026-05-07 13:35:53,842 [INFO] __main__: Starting AI Voice-Controlled Desktop Assistant...
+2026-05-07 13:35:53,966 [INFO] assistant.stt: Calibrating microphone for ambient noise (2 s)…
+2026-05-07 13:35:56,242 [INFO] assistant.stt: Microphone ready.
+2026-05-07 13:35:58,162 [WARNING] assistant.nlp: spaCy model 'en_core_web_sm' not found. Run: python -m spacy download en_core_web_sm
+2026-05-07 13:35:58,162 [ERROR] assistant.gemini: google-generativeai not installed. Run: pip install google-generativeai
+2026-05-07 13:35:58,162 [WARNING] assistant.core: Gemini AI fallback: DISABLED (no API key)
+2026-05-07 13:35:58,162 [INFO] assistant.core: [TTS] Assistant ready. Say 'Hey Assistant' to begin.
+2026-05-07 13:36:10,637 [INFO] assistant.core: Wake word detected.
+2026-05-07 13:36:10,637 [INFO] assistant.core: [TTS] Yes, listening.
+2026-05-07 13:36:16,591 [INFO] assistant.core: [STT] what is 2 x 3
+2026-05-07 13:36:16,594 [INFO] assistant.core: [NLP] intent=unknown, entities={'raw': 'what is 2 x 3'}, conf=0.30
+2026-05-07 13:36:16,594 [INFO] assistant.core: [Router] No skill match → Gemini (conf=0.30)
+2026-05-07 13:36:16,594 [INFO] assistant.core: [TTS] I didn't understand that command, and the AI brain isn't configured. Set your GEMINI_API_KEY to enable smart responses.
+2026-05-07 13:38:39,750 [INFO] __main__: Interrupted by user. Shutting down.
+2026-05-07 13:38:39,753 [INFO] assistant.core: [TTS] Goodbye! Have a great day.
+2026-05-07 13:39:31,875 [INFO] __main__: Starting AI Voice-Controlled Desktop Assistant...
+2026-05-07 13:39:31,990 [INFO] assistant.stt: Calibrating microphone for ambient noise (2 s)…
+2026-05-07 13:39:34,203 [INFO] assistant.stt: Microphone ready.
+2026-05-07 13:39:36,157 [WARNING] assistant.nlp: spaCy model 'en_core_web_sm' not found. Run: python -m spacy download en_core_web_sm
+2026-05-07 13:39:38,568 [INFO] assistant.gemini: Gemini AI ready (gemini-3-flash-preview).
+2026-05-07 13:39:38,569 [INFO] assistant.core: Gemini AI fallback: ENABLED
+2026-05-07 13:39:38,569 [INFO] assistant.core: [TTS] Assistant ready. Gemini AI is connected. Ask me anything.
+2026-05-07 13:40:21,503 [INFO] assistant.core: Wake word detected.
+2026-05-07 13:40:21,505 [INFO] assistant.core: [TTS] Yes, listening.
+2026-05-07 13:40:28,837 [INFO] assistant.core: [STT] what is the current result of us Iran conflict
+2026-05-07 13:40:28,840 [INFO] assistant.core: [NLP] intent=unknown, entities={'raw': 'what is the current result of us Iran conflict'}, conf=0.30
+2026-05-07 13:40:28,840 [INFO] assistant.core: [Router] No skill match → Gemini (conf=0.30)
+2026-05-07 13:40:28,840 [INFO] assistant.core: [Gemini] Querying: what is the current result of us Iran conflict
+2026-05-07 13:40:31,662 [INFO] assistant.gemini: [Gemini] Q: what is the current result of us Iran conflict | A: The conflict remains a state of
+2026-05-07 13:40:31,662 [INFO] assistant.core: [TTS] The conflict remains a state of
+2026-05-07 13:42:03,402 [INFO] __main__: Interrupted by user. Shutting down.
+2026-05-07 13:42:03,405 [INFO] assistant.core: [TTS] Goodbye! Have a great day.
+2026-05-07 13:42:41,555 [INFO] __main__: Starting AI Voice-Controlled Desktop Assistant...
+2026-05-07 13:42:41,703 [INFO] assistant.stt: Calibrating microphone for ambient noise (2 s)…
+2026-05-07 13:42:43,939 [INFO] assistant.stt: Microphone ready.
+2026-05-07 13:42:46,007 [WARNING] assistant.nlp: spaCy model 'en_core_web_sm' not found. Run: python -m spacy download en_core_web_sm
+2026-05-07 13:42:46,791 [INFO] assistant.gemini: Gemini AI ready (gemini-3-flash-preview).
+2026-05-07 13:42:46,791 [INFO] assistant.core: Gemini AI fallback: ENABLED
+2026-05-07 13:42:46,791 [INFO] assistant.core: [TTS] Assistant ready. Gemini AI is connected. Ask me anything.
+2026-05-07 13:42:59,950 [INFO] assistant.core: Wake word detected.
+2026-05-07 13:42:59,952 [INFO] assistant.core: [TTS] Yes, listening.
+2026-05-07 13:43:04,330 [INFO] assistant.core: [STT] open Chrome
+2026-05-07 13:43:04,334 [INFO] assistant.core: [NLP] intent=open_app, entities={'raw': 'open Chrome', 'app_name': 'Chrome'}, conf=0.90
+2026-05-07 13:43:04,334 [INFO] assistant.core: [Router] Matched skill: open_app
+2026-05-07 13:43:04,489 [INFO] assistant.core: [TTS] Opening Google Chrome.
+2026-05-07 13:43:14,142 [INFO] assistant.core: Wake word detected.
+2026-05-07 13:43:14,144 [INFO] assistant.core: [TTS] Yes, listening.
+2026-05-07 13:43:20,866 [INFO] assistant.core: [STT] open Apple music
+2026-05-07 13:43:20,868 [INFO] assistant.core: [NLP] intent=open_app, entities={'raw': 'open Apple music', 'app_name': 'Apple music'}, conf=0.90
+2026-05-07 13:43:20,869 [INFO] assistant.core: [Router] Matched skill: open_app
+2026-05-07 13:43:21,111 [INFO] assistant.core: [TTS] Opening Apple music.
+2026-05-07 13:44:04,012 [INFO] assistant.core: Wake word detected.
+2026-05-07 13:44:04,015 [INFO] assistant.core: [TTS] Yes, listening.
+2026-05-07 13:44:08,146 [INFO] assistant.core: [TTS] I didn't catch that. Please try again.
+2026-05-07 13:44:15,236 [INFO] assistant.core: Wake word detected.
+2026-05-07 13:44:15,239 [INFO] assistant.core: [TTS] Yes, listening.
+2026-05-07 13:44:22,040 [INFO] assistant.core: [STT] search about photosynthesis
+2026-05-07 13:44:22,044 [INFO] assistant.core: [NLP] intent=web_search, entities={'raw': 'search about photosynthesis', 'query': 'about photosynthesis'}, conf=0.88
+2026-05-07 13:44:22,044 [INFO] assistant.core: [Router] Matched skill: web_search
+2026-05-07 13:44:22,265 [INFO] assistant.core: [TTS] Searching the web for about photosynthesis.
+2026-05-07 13:44:47,857 [INFO] assistant.core: Wake word detected.
+2026-05-07 13:44:47,860 [INFO] assistant.core: [TTS] Yes, listening.
+2026-05-07 13:44:52,546 [INFO] assistant.core: [STT] goodbye assistant
+2026-05-07 13:44:52,546 [INFO] assistant.core: [TTS] Shutting down. Goodbye!
+2026-05-07 13:48:30,009 [INFO] __main__: Starting AI Voice-Controlled Desktop Assistant...
+2026-05-07 13:48:30,125 [INFO] assistant.stt: Calibrating microphone for ambient noise (2 s)…
+2026-05-07 13:48:32,346 [INFO] assistant.stt: Microphone ready.
+2026-05-07 13:48:34,266 [WARNING] assistant.nlp: spaCy model 'en_core_web_sm' not found. Run: python -m spacy download en_core_web_sm
+2026-05-07 13:48:35,511 [INFO] assistant.gemini: Gemini AI ready via google-genai SDK (gemini-3-flash-preview).
+2026-05-07 13:48:35,511 [INFO] assistant.core: Gemini AI fallback: ENABLED
+2026-05-07 13:48:35,511 [INFO] assistant.core: [TTS] Assistant ready. Gemini AI is connected. Ask me anything.
+2026-05-07 13:48:50,936 [INFO] assistant.core: Wake word detected.
+2026-05-07 13:48:50,936 [INFO] assistant.core: [TTS] Yes, listening.
+2026-05-07 13:48:57,288 [INFO] assistant.core: [STT] can you tell me about chess
+2026-05-07 13:48:57,292 [INFO] assistant.core: [NLP] intent=unknown, entities={'raw': 'can you tell me about chess'}, conf=0.30
+2026-05-07 13:48:57,292 [INFO] assistant.core: [Router] No skill match → Gemini (conf=0.30)
+2026-05-07 13:48:57,292 [INFO] assistant.core: [Gemini] Querying: can you tell me about chess
+2026-05-07 13:48:57,298 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-05-07 13:49:00,310 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-05-07 13:49:00,316 [INFO] assistant.gemini: [Gemini] Q: can you tell me about chess | A: Chess is a classic two-player strategy game played
+2026-05-07 13:49:00,316 [INFO] assistant.core: [TTS] Chess is a classic two-player strategy game played
+2026-05-07 13:49:53,920 [INFO] __main__: Interrupted by user. Shutting down.
+2026-05-07 13:49:53,921 [INFO] assistant.core: [TTS] Goodbye! Have a great day.
+2026-05-07 13:51:13,803 [INFO] __main__: Starting AI Voice-Controlled Desktop Assistant...
+2026-05-07 13:51:13,995 [INFO] assistant.stt: Calibrating microphone for ambient noise (2 s)…
+2026-05-07 13:51:16,257 [INFO] assistant.stt: Microphone ready.
+2026-05-07 13:51:19,127 [INFO] assistant.nlp: spaCy model 'en_core_web_sm' loaded.
+2026-05-07 13:51:19,530 [INFO] assistant.gemini: Gemini AI ready via google-genai SDK (gemini-3-flash-preview).
+2026-05-07 13:51:19,531 [INFO] assistant.core: Gemini AI fallback: ENABLED
+2026-05-07 13:51:19,531 [INFO] assistant.core: [TTS] Assistant ready. Gemini AI is connected. Ask me anything.
+2026-05-07 13:51:34,049 [INFO] assistant.core: Wake word detected.
+2026-05-07 13:51:34,049 [INFO] assistant.core: [TTS] Yes, listening.
+2026-05-07 13:51:41,007 [INFO] assistant.core: [STT] can you tell me about
+2026-05-07 13:51:41,040 [INFO] assistant.core: [NLP] intent=unknown, entities={'raw': 'can you tell me about'}, conf=0.30
+2026-05-07 13:51:41,040 [INFO] assistant.core: [Router] No skill match → Gemini (conf=0.30)
+2026-05-07 13:51:41,040 [INFO] assistant.core: [Gemini] Querying: can you tell me about
+2026-05-07 13:51:41,041 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-05-07 13:51:42,689 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-05-07 13:51:42,690 [ERROR] assistant.gemini: Gemini API error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-05-07 13:51:42,690 [INFO] assistant.core: [TTS] I had trouble reaching the AI service. Please try again in a moment.
+2026-05-07 13:51:52,829 [INFO] assistant.core: Wake word detected.
+2026-05-07 13:51:52,831 [INFO] assistant.core: [TTS] Yes, listening.
+2026-05-07 13:51:57,229 [INFO] assistant.core: [STT] open Safari
+2026-05-07 13:51:57,242 [INFO] assistant.core: [NLP] intent=open_app, entities={'raw': 'open Safari', 'person': 'Safari', 'app_name': 'Safari'}, conf=0.90
+2026-05-07 13:51:57,243 [INFO] assistant.core: [Router] Matched skill: open_app
+2026-05-07 13:51:57,341 [INFO] assistant.core: [TTS] Opening Safari.
+2026-05-07 13:52:12,240 [INFO] assistant.core: Wake word detected.
+2026-05-07 13:52:12,242 [INFO] assistant.core: [TTS] Yes, listening.
+2026-05-07 13:52:15,912 [INFO] assistant.core: [STT] close Safari
+2026-05-07 13:52:15,984 [INFO] assistant.core: [NLP] intent=close_app, entities={'raw': 'close Safari', 'person': 'Safari', 'app_name': 'Safari'}, conf=0.90
+2026-05-07 13:52:15,984 [INFO] assistant.core: [Router] Matched skill: close_app
+2026-05-07 13:52:16,005 [INFO] assistant.core: [TTS] Closed Safari.
+2026-05-07 13:52:32,741 [INFO] assistant.core: Wake word detected.
+2026-05-07 13:52:32,744 [INFO] assistant.core: [TTS] Yes, listening.
+2026-05-07 13:52:36,027 [INFO] assistant.core: [STT] close find
+2026-05-07 13:52:36,093 [INFO] assistant.core: [NLP] intent=close_app, entities={'raw': 'close find', 'app_name': 'find'}, conf=0.90
+2026-05-07 13:52:36,093 [INFO] assistant.core: [Router] Matched skill: close_app
+2026-05-07 13:52:36,114 [INFO] assistant.core: [TTS] Closed find.
+2026-05-07 13:52:46,382 [INFO] assistant.core: Wake word detected.
+2026-05-07 13:52:46,384 [INFO] assistant.core: [TTS] Yes, listening.
+2026-05-07 13:52:50,642 [INFO] assistant.core: [STT] close finder
+2026-05-07 13:52:50,662 [INFO] assistant.core: [NLP] intent=close_app, entities={'raw': 'close finder', 'app_name': 'finder'}, conf=0.90
+2026-05-07 13:52:50,662 [INFO] assistant.core: [Router] Matched skill: close_app
+2026-05-07 13:52:50,697 [INFO] assistant.core: [TTS] Closed finder.
+2026-05-07 13:53:01,008 [INFO] assistant.core: Wake word detected.
+2026-05-07 13:53:01,010 [INFO] assistant.core: [TTS] Yes, listening.
+2026-05-07 13:53:04,918 [INFO] assistant.core: [STT] open finder
+2026-05-07 13:53:04,939 [INFO] assistant.core: [NLP] intent=open_app, entities={'raw': 'open finder', 'app_name': 'finder'}, conf=0.90
+2026-05-07 13:53:04,939 [INFO] assistant.core: [Router] Matched skill: open_app
+2026-05-07 13:53:05,069 [INFO] assistant.core: [TTS] Opening Finder.
+2026-05-07 13:53:13,274 [INFO] assistant.core: Wake word detected.
+2026-05-07 13:53:13,274 [INFO] assistant.core: [TTS] Yes, listening.
+2026-05-07 13:53:21,970 [INFO] assistant.core: [STT] goodbye assistant
+2026-05-07 13:53:21,972 [INFO] assistant.core: [TTS] Shutting down. Goodbye!
